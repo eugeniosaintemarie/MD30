@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mati - Mis 30</title>
+    <link
+      rel="shortcut icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 36 36%22><text y=%2232%22 font-size=%2232%22>🐂</text></svg>"
+    />
+    <meta property="og:title" content="Mati - Mis 30 🐂" />
+    <meta
+      property="og:description"
+      content="Pileta, parrilla, escabio, ping pong, fulbo y demás"
+    />
+    <!--<meta
+      property="og:image"
+      content="https://eugeniosaintemarie.github.io/30/Stitch_tongue.png"
+    />-->
+    <meta property="og:url" content="https://eugeniosaintemarie.github.io/MD30" />
+    <meta property="og:type" content="website" />
+
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        max-width: 100%;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+
+      main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 16px;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 24px;
+      }
+
+      .emoji {
+        display: inline-block;
+        margin-left: 8px;
+        animation: fade-in-out 1.5s infinite;
+      }
+
+      @keyframes fade-in-out {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
+
+      .event-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 16px;
+        margin: 0 auto;
+        max-width: 300px;
+      }
+
+      .event-row {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 8px;
+      }
+
+      .event-button {
+        background-color: white;
+        color: black;
+        border: none;
+        padding: 8px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: transform 0.2s;
+      }
+
+      .event-button:hover {
+        transform: scale(1.1);
+      }
+
+      .footer {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        padding: 10px;
+      }
+    </style>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-LNQ47VG50M"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-LNQ47VG50M");
+    </script>
+  </head>
+  <body>
+    <main>
+      <br /><br />
+      <h1>Mis 30 🐂</h1>
+      <br />
+      <h2><i>Pileta, parrilla, escabio,<br> ping pong, fulbo y demás</i></h2>
+      <a href="https://www.google.com/maps/place/34%C2%B028'46.1%22S+58%C2%B046'11.7%22W/@-34.4794807,-58.7724876,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-34.4794807!4d-58.7699127?hl=en&entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+        <img style="width: 275px" src="./portada.jpeg" />
+      </a>
+      <br />
+      <div class="event-container">
+        <div class="event-row">
+          <div style="text-align: right">
+            <p style="margin-bottom: 0px">Sábado 22 de febrero de 11am a 21pm</p>
+            <!--<p style="margin-top: 0px"></p>-->
+          </div>
+          <!--<button
+            class="event-button"
+            onclick="addToCalendar()"
+            style="width: 90px"
+          >
+            agendar 📅
+          </button>-->
+        </div>
+        <div class="event-row">
+          <p>Tortuguitas</p>
+          <a href="https://www.google.com/maps/place/34%C2%B028'46.1%22S+58%C2%B046'11.7%22W/@-34.4794807,-58.7724876,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-34.4794807!4d-58.7699127?hl=en&entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+            <button class="event-button" style="width: 90px">Maps 📍</button>
+          </a>
+        </div>
+      </div>
+      <br /><br /><br />
+      <p><i>descripción 2</i></p>
+    </main>
+    <div class="footer">
+      <p>
+        <a style="text-decoration: none; color: grey" href="/"
+          ><span class="emoji">∃🦋</span></a
+        >
+      </p>
+    </div>
+    <!--<script>
+      function addToCalendar() {
+        const event = {
+          title: "Eugenio / Los 30 🎂",
+          description:
+            "Los usamos de excusa para juntarnos a escabiar mucho 🍻",
+          startDate: new Date(2024, 12, 21, 23, 0).toISOString(),
+          endDate: new Date(2024, 12, 22, 5, 0).toISOString(),
+          location:
+            "Carlos Calvo 2913, C1231 Cdad. Autónoma de Buenos Aires, Argentina",
+        };
+
+        const isAndroid = /Android/i.test(navigator.userAgent);
+        const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+        if (isAndroid) {
+          const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
+            event.title
+          )}&details=${encodeURIComponent(
+            event.description
+          )}&dates=${event.startDate.replace(
+            /-|:|\.\d+/g,
+            ""
+          )}/${event.endDate.replace(
+            /-|:|\.\d+/g,
+            ""
+          )}&location=${encodeURIComponent(event.location)}`;
+
+          window.open(url, "_blank");
+        } else if (isIOS) {
+          const formatDate = (date) =>
+            date.replace(/-|:|\.\d+/g, "").slice(0, -1) + "Z";
+
+          const icsContent = `
+    BEGIN:VCALENDAR
+    VERSION:2.0
+    CALSCALE:GREGORIAN
+    BEGIN:VEVENT
+    SUMMARY:${event.title}
+    DESCRIPTION:${event.description}
+    DTSTART:${formatDate(event.startDate)}
+    DTEND:${formatDate(event.endDate)}
+    LOCATION:${event.location}
+    END:VEVENT
+    END:VCALENDAR
+    `.trim();
+
+          const blob = new Blob([icsContent], {
+            type: "text/calendar;charset=utf-8;",
+          });
+          const link = document.createElement("a");
+          link.href = URL.createObjectURL(blob);
+          link.download = "EugenioLos30.ics";
+          link.click();
+        } else {
+          alert("Solo mobile");
+        }
+      }
+    </script>-->
+  </body>
+</html>
